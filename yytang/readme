@@ -1,0 +1,8 @@
+1. To compile the u-boot
+    ./make_yytang.sh
+
+2.To install everything on SDcard
+    sudo ./scripts/sdcard.sh /dev/sdX
+
+3. To update u-boot
+    sudo dd if=nv_uboot-snow.kpart of=/dev/sdX1
